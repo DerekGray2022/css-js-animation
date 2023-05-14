@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Eurostile, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5rem;
+}
+
+div
+{
+    width: 100%;
+    text-align: left;
+    padding-left: 2rem;
+    cursor: pointer;
+    transition: transform 1s, height 1s;
+}
+
+h1
+{
+    padding: 2rem 0;
+}
+
+#one
+{
+    background-color: aquamarine;
+    color: rgb(1, 73, 49);
+    height: 20vh;
+}
+
+#two
+{
+    background-color: rgb(46, 139, 87);
+    color: rgb(157, 255, 200);
+    height: 20vh;
+}
+
+#three
+{
+    background-color: mediumslateblue;
+    color: rgb(49, 41, 90);
+    height: 20vh;
+}
+
+#four
+{
+    background-color: brown;
+    color: rgb(253, 150, 150);
+    height: 20vh;
+}
+
+#five
+{
+    background-color: orangered;
+    color: rgb(43, 11, 0);
+    height: 20vh;
+}
+
+.active0
+{
+    transform: translateY(0vh);
+    height: 100vh !important;
+}
+
+.active1
+{
+    transform: translateY(-20vh);
+    height: 100vh !important;
+}
+
+.active2
+{
+    transform: translateY(-40vh);
+    height: 100vh !important;
+}
+
+.active3
+{
+    transform: translateY(-60vh);
+    height: 100vh !important;
+}
+
+.active4
+{
+    transform: translateY(-80vh);
+    height: 100vh !important;
+}
+
+
+
+
+
